@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{22B47EB8-499C-4FFA-AD12-9CA9BAA38440}</ProjectGuid>
+    <ProjectGuid>{60AB6612-F614-40B9-A2C0-4C4294C353F1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ClassAdv</RootNamespace>
-    <AssemblyName>ClassAdv</AssemblyName>
+    <RootNamespace>ClassAdv32</RootNamespace>
+    <AssemblyName>ClassAdv32</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,12 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Box.cs" />
+    <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassAdv32.csproj" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
